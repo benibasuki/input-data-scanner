@@ -1,0 +1,29 @@
+package com.tutor;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        int a,b,hasil;
+        System.out.print("data1:");
+        a = userInput.nextInt();
+        System.out.println("data2:");
+        b = userInput.nextInt();
+        hasil = a+b;
+        System.out.println("penjumlahan: "+a +" + "+b+"="+hasil);
+        hasil = a-b;
+        System.out.println("pengurangan: "+a +" - "+b+"="+hasil);
+        hasil = a*b;
+        System.out.println("perkalian: "+a +" * "+b+"="+hasil);
+        hasil = a/b;
+        System.out.println("pembagian: "+a +" / "+b+"="+hasil);
+        hasil = a%b;
+        System.out.println("modulus: "+a +" % "+b+"="+hasil);
+
+
+        }
+
+
+    }
